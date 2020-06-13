@@ -5,11 +5,15 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build:css": "tailwindcss build ./src/assets/style/style.css -o ./public/style.css",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "tailwindcss": "^1.4.6",
+    "tailwindcss-plugins": "^0.3.0",
+    "vue": "^2.6.11",
+    "vue-router": "^3.3.3"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.4.0",
