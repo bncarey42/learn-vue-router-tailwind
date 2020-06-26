@@ -3,8 +3,8 @@
     <nav-bar :rootLink='rootLink' :activeLinkName='activeLinkName' :routes='routeLinks'/>
     <div class="container">
       <div id="app" class="items-center content-center text-center text-gray-900">
-        <div class="rounded bg-emerald-to-right-45 w-20 shadow-md m-auto object-center text-green-200 text-6xl">O</div>
-        <hellow msg="Welcome to Ogma" subMsg="Your home for qualitative research data storage and analysis"/>
+        <div class="rounded bg-gray-900 w-20 shadow-2xl m-auto object-center text-gray-500 text-6xl">O</div>
+        <hellow msg="Welcome to Owlsight" subMsg="Your home for qualitative research data storage and analysis"/>
       </div>
     </div>
   </section>
@@ -15,13 +15,12 @@ export default {
   name: "Home",
   data: function() {
     return {
-      rootLink: {link: '/', name:'Ogma'},
+      rootLink: {link: '/', name:'Owlsight'},
       activeLinkName: 'home',
       routeLinks: [
-        {name: 'home', link: '/'},
-        {name: 'projects', link: '/projects'},
-        {name: 'media', link: '/media'},
-        {name: 'guides', link: '/guides'}
+        {name: 'about', link: '/about'},
+        {name: 'blog', link: '/blog'},
+        {name: 'contact', link: '/contact'}
       ]
     }
   }

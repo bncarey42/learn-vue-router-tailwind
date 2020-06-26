@@ -1,15 +1,14 @@
 import Vue from 'vue';
 import router from "./router";
 
-require('../public/style.css');
+require('@/assets/css/style.css');
 
 import App from '@/App';
-import NavBar from './components/top/NavBar';
-import HelloWorld from './components/HelloWorld';
+import NavBar from '@/components/top/NavBar';
+import HelloWorld from '@/components/HelloWorld';
 
 Vue.component('nav-bar', NavBar);
 Vue.component('hellow', HelloWorld);
-Vue.component('nav-bar', NavBar);
 
 
 

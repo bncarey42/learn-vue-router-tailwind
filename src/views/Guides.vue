@@ -12,13 +12,12 @@ export default {
   name: "Guides",
   data: function() {
     return {
-      rootLink: {link: '/', name:'Ogma'},
+      rootLink: {link: '/', name:'Owlsight'},
       activeLinkName: 'guides',
       routeLinks: [
-        {name: 'home', link: '/'},
-        {name: 'projects', link: '/projects'},
-        {name: 'media', link: '/media'},
-        {name: 'guides', link: '/guides'}
+        {name: 'projects', link: '/secure/projects'},
+        {name: 'media', link: '/secure/media'},
+        {name: 'guides', link: '/secure/guides'}
       ]
     }
   }
